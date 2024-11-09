@@ -28,11 +28,17 @@
                     <option>All</option>
                     <option>Home Appliances</option>
                 </select>
-                <input placeholder="Search Amazon " class="search2">
-                <div class="search-icon">
+                <div class="search-bar-container">
+                    <input placeholder="Search Amazon" class="search2" id="searchInput" type="text">
+                    <div id="searchHistoryContainer"></div>
+                
+                </div>
+                <div class="search-icon" id="searchButton">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
+            
+            
 
             <div class="nav-sigin border">
                 <p><span>Hello sign in</span></p>
@@ -196,6 +202,8 @@
         </div>
 
     </footer>
+
+    <script src="index.js"></script>
     
 </body>
 </html>
